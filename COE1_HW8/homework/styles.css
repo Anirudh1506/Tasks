@@ -1,0 +1,36 @@
+/* START: Task 1 Styles */
+.all{
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    justify-items: center;
+}
+
+.white{
+    background-color: white;
+    padding: 3em;
+}
+
+.green{
+    background-color: green;
+    padding: 3em;
+}
+
+.blue{
+    background-color: blue;
+    padding: 3em;
+}
+
+.yellow{
+    background-color: yellow;
+    padding: 3em;
+}
+/* END: Task 1 Styles */
+
+/* START: Task 2 Styles */
+
+/* END: Task 2 Styles */
+
+/* START: Task 3 Styles */
+
+/* END: Task 3 Styles */

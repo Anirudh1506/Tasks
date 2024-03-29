@@ -1,0 +1,133 @@
+.tm-content-box
+{
+    margin-bottom: 10px;
+}
+.tm-content-box .tm-section-title
+{
+    color: blue;
+}
+.tm-content-header .margin-b-10
+{
+    margin-bottom: 10px;
+}
+.tm-content-box  .tm-section-description::first-letter,.tm-banner-text::first-letter
+{
+    font-size: 30px;
+    color: #87CEFA;
+    margin-left:10px;
+}
+.tm-content-box .tm-team-description-container p
+{
+    font-size: 15px;
+    line-height: 30px;
+}
+.flex-2-col
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}  
+.tm-footer
+{
+    position: fixed;
+    bottom: 0;
+}
+.tm-footer p::first-letter
+{
+    font-size: 30px;
+    color:#87CEFA;
+    margin-left: 30px;
+}
+@media print  {
+    #about {page-break-before: always;}
+  }
+@media print {
+    .tm-footer {page-break-before: always;}
+  }
+
+
+  .gallery-container .tm-section-title-box:hover
+  {
+    background-color: skyblue;
+  }
+  .tm-content-header
+  {
+    background-color: rgb(230, 229, 229);
+    margin-bottom: 10px;
+  }
+  .tm-banner-inner
+  {
+    background-color: white;
+  }
+  .tm-content-box
+  {
+    border: 1px solid grey;
+  }
+ .tm-section-title
+  {
+    color: gainsboro;
+    letter-spacing: 5px;
+  }
+  h2+p{
+    font-style: italic;
+  }
+  .tm-content-box ol li a
+  {
+    color: black;
+  }
+  .tm-content-box ol li a:visited
+  {
+    text-decoration: underline;
+  }
+  .tm-content-box ol li a:hover
+  {
+    color: skyblue;
+    text-decoration-line: underline;
+    text-decoration-style: double;
+  }
+  .tm-content-box .padding-medium ol li:nth-child(1)::after,
+  .tm-content-box .padding-medium ol li:nth-child(3)::after
+  {
+    content: 'New';
+    position: relative; top: -0.5em; font-size: 80%;
+    color: red;
+  }
+.tm-content-box ul .box-work:nth-child(even)
+{
+    background-color: rgb(230, 227, 227);
+}
+.tm-content-box ul .box-work p::first-letter
+{
+    font-size: 30px;
+    color: black;
+}
+.tm-content-box ul .box-work
+{
+    padding: 5px;
+}
+.btn-primary
+{
+    background-color: white;
+    border: 1px solid #87CEFA;
+    color: #87CEFA;
+    margin-left: 80%;
+    padding:10px 40px;
+}
+.btn-primary:hover
+{
+    background-color: #87CEFA;
+    border: 1px solid #87CEFA;
+    color: white;
+}
+.tm-content-box .padding-medium form .mandatory-field::after{
+   content: '*';
+    color: red;
+}
+.tm-main-nav
+{
+    border: 1px solid gray;
+}
+.tm-main-nav ul li a:hover
+{
+    background-color: lightgray;
+}
